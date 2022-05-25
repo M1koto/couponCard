@@ -1,0 +1,83 @@
+.card {
+    --stamp-size: 64px;
+    --stamp-gap: 24px;
+    --stamp-border-radius: var(--stamp-size);
+    --stamp-text-size: calc(var(--stamp-size)/4.5);
+  
+    background-color: #f1eded;
+    padding: 32px;
+    font-family: Helvetica, sans-serif;
+    box-sizing: border-box;
+    width: 500px;
+    border-radius: 6px;
+  }
+  
+  .card-header {
+    margin-bottom: 32px;
+  }
+  
+  .card-title {
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+    color: rgb(9, 9, 9);
+  }
+  
+  .card-text {
+    margin: 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 300;
+    text-align: center;
+    color: rgb(12, 12, 12);
+  }
+  
+  .card-body {
+    display: grid;
+    grid-template-columns: repeat(5, var(--stamp-size));
+    gap: var(--stamp-gap);
+    justify-content: center;
+    margin-bottom: 32px;
+  }
+  
+  .button {
+    background-color: rgb(245, 238, 238);
+    width: var(--stamp-size);
+    height: var(--stamp-size);
+    border-radius: var(--stamp-border-radius);
+    border: 4px solid rgb(9, 9, 9);
+  }
+
+  .stamp {
+    background-color: rgb(245, 238, 238);
+    width: var(--stamp-size);
+    height: var(--stamp-size);
+    border-radius: var(--stamp-border-radius);
+    border: 4px solid rgb(9, 9, 9);
+  }
+  
+  /* .stamp.free {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: transparent;
+    border: 1px solid white;
+    letter-spacing: 1px;
+    font-size: var(--stamp-text-size);
+    font-weight: bold;
+    text-transform: uppercase;
+  } */
+  
+  .card-footer {
+    color: rgb(13, 13, 13);
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;
+  }
+  
+  
