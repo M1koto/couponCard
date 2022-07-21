@@ -5,3 +5,5 @@ The purpose of this extension is to let user keep a record of something, in the 
 
 ## Download
 Chrome Web store: https://chrome.google.com/webstore/detail/coupon-card/efpmghghbocdbefkpgifndkkgmfpfjlg/related?hl=zh-TW&authuser=0
+
+<img width="651" alt="Screen Shot 2022-07-21 at 1 08 54 AM" src="https://user-images.githubusercontent.com/60208038/180163483-4ee39b01-8fd2-4670-8e85-00ddaff5b6ee.png">
